@@ -45,6 +45,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Intergalactic Traveler" id="phQ-0G-JH9"/>
+                    <connections>
+                        <outlet property="colorTextField" destination="0Ny-cf-ytX" id="7jf-tW-jz3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -54,9 +57,15 @@
         <scene sceneID="SP4-Ty-1iD">
             <objects>
                 <viewController id="cSR-qt-eIv" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vk2-3d-eyv">
+                    <view key="view" contentMode="scaleToFill" id="vk2-3d-eyv" customClass="UICollectionView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4FE-eM-hCA">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="YXm-gh-jJ3"/>
                     </view>
