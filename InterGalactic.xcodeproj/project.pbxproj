@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E39151F2375D97F0057F64F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39151E2375D97F0057F64F /* SecondViewController.swift */; };
 		9EBC1EA62371EB96005B55A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC1EA52371EB96005B55A4 /* AppDelegate.swift */; };
 		9EBC1EA82371EB96005B55A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC1EA72371EB96005B55A4 /* SceneDelegate.swift */; };
 		9EBC1EAA2371EB96005B55A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC1EA92371EB96005B55A4 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E39151E2375D97F0057F64F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9EBC1EA22371EB96005B55A4 /* InterGalactic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterGalactic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBC1EA52371EB96005B55A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EBC1EA72371EB96005B55A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				9EBC1EA72371EB96005B55A4 /* SceneDelegate.swift */,
 				9EBC1EA92371EB96005B55A4 /* ViewController.swift */,
 				9EBC1EAB2371EB96005B55A4 /* Main.storyboard */,
+				9E39151E2375D97F0057F64F /* SecondViewController.swift */,
 				9EBC1EAE2371EB97005B55A4 /* Assets.xcassets */,
 				9EBC1EB02371EB97005B55A4 /* LaunchScreen.storyboard */,
 				9EBC1EB32371EB97005B55A4 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E39151F2375D97F0057F64F /* SecondViewController.swift in Sources */,
 				9EBC1EAA2371EB96005B55A4 /* ViewController.swift in Sources */,
 				9EBC1EA62371EB96005B55A4 /* AppDelegate.swift in Sources */,
 				9EBC1EA82371EB96005B55A4 /* SceneDelegate.swift in Sources */,
