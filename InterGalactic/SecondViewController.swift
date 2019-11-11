@@ -19,7 +19,7 @@ class SecondViewController: UIViewController {
         let myImage = UIImage(named: "\(starColor)\(randomNumber)")
         starImageView.image = myImage
 
-        // Do any additional setup after loading the view.
+        
     }
 
 
