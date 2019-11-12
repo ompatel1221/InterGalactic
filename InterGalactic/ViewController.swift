@@ -16,10 +16,16 @@ class ViewController: UIViewController {
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let nameOfColor = colorTextField.text!
-        let NVC = segue.destination as! SecondViewController
-        NVC.starColor = nameOfColor
-    }
-
+        if let nameOfColor = colorTextField.text,nameOfColor == "Blue" || nameOfColor == "Red" {
+            let NVC = segue.destination as! SecondViewController
+            NVC.starColor = nameOfColor
+        } else {
+            let alert = UIAlertController(title: "ERROR", message: "No data or wrong color", preferredStyle: .alert)
+            let button = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alert.addAction(button)
+            present(alert, animated: true, completion: nil)
+        }
+        
 }
 
+}
